@@ -28,7 +28,8 @@
             font-weight: bold;
             color: white;
             scroll-snap-align: start;
-            transition: background 1s ease;
+            -webkit-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
         }
         .section:nth-child(1) { background: #FF5733; } /* Red */
         .section:nth-child(2) { background: #33B5E5; } /* Blue */
@@ -38,7 +39,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="section">Déscendez</div>
+        <div class="section">s'il vous plaît, descendez</div>
         <div class="section">La couleur change !</div>
         <div class="section">Et il n'y a pas de Javascript !</div>
         <div class="section">Pas mal, non ?</div>
