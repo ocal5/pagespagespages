@@ -6,6 +6,7 @@
     <title>Scroll Background Change</title>
     <style>
         html, body {
+            font-family: 'Source Sans Pro', sans-serif;
             margin: 0;
             padding: 0;
             height: 100%;
@@ -27,6 +28,7 @@
             font-weight: bold;
             color: white;
             scroll-snap-align: start;
+            transition: background 1s ease;
         }
         .section:nth-child(1) { background: #FF5733; } /* Red */
         .section:nth-child(2) { background: #33B5E5; } /* Blue */
@@ -36,10 +38,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="section">Scroll Down</div>
-        <div class="section">Color Change</div>
-        <div class="section">While Scrolling</div>
-        <div class="section">Cool, Right?</div>
+        <div class="section">Déscendez</div>
+        <div class="section">La couleur change !</div>
+        <div class="section">Et il n'y a pas de Javascript !</div>
+        <div class="section">Pas mal, non ?</div>
     </div>
 </body>
 </html>
